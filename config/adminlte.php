@@ -258,8 +258,8 @@ return [
         ],
         [
             'text'        => 'Home',
-            'url'         => 'admin/home',
-            'icon'        => 'far fa-fw fa-home',
+            'url'         => '/home',
+            'icon'        => 'fa fa-home',
             //'label'       => 4,
             //'label_color' => 'success',
         ],
