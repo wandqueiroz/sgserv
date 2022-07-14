@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content_header')
-    <h1>FORMULARIO DE REQUERIMENTO</h1>
+    <h1>FORMULÁRIO DE COMUNICAÇÃO DE CONCESSÃO DE FÉRIAS</h1>
 @stop
 
 @section('content')
@@ -15,16 +15,7 @@
             <form>
                 <div style="display: flex; justify-content: space-between;">
                     <img src="{{ asset(config('adminlte.logo_horizontal')) }}" height="130">
-                    <div class="card">
-                        <div class="card-header">
-                            <p class="text-center card-title" style="font-size:14px; width:400px;">CARIMBO DATADOR</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="inputCarimboDatador" style="border: 0 none; outline: 0;">
-                            </div>
-                        </div>
-                    </div>
+                    <h3>COMUNICAÇÃO DE CONCESSÃO DE FÉRIAS</h3>
                 </div>
                 <h4 class="text-center col-md-12"><strong>REQUERIMENTO</strong></h4>
 

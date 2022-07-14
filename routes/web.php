@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/requerimento', [App\Http\Controllers\SetorPessoalController::class, 'requerimento'])->name('forms-requerimento');
+
+Route::get('/aviso_ferias', [App\Http\Controllers\SetorPessoalController::class, 'aviso_ferias'])->name('forms-aviso_ferias');

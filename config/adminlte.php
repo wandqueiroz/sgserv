@@ -45,8 +45,8 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo' => '<b>SGSERV</b> - SDHDS',
+    'logo_img' => 'vendor/adminlte/dist/img/brasao.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_login_img' => 'vendor/adminlte/dist/img/logo-sdhds.png',
     'logo_horizontal' => 'vendor/adminlte/dist/img/logo-horizontal.png',
@@ -257,11 +257,11 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Home',
+            'url'         => 'admin/home',
+            'icon'        => 'far fa-fw fa-home',
+            //'label'       => 4,
+            //'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
         [

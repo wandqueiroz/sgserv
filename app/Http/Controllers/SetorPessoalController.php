@@ -21,6 +21,11 @@ class SetorPessoalController extends Controller
         return view('forms.requerimento');
     }
 
+    public function aviso_ferias()
+    {
+        return view('forms.aviso_ferias');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

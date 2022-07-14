@@ -17,8 +17,8 @@
             <a class="btn btn-app" href="/requerimento">
                 <i class="fa fa-file-alt"></i> Requerimento
             </a>
-            <a class="btn btn-app">
-                <i class="fas fa-play"></i> Play
+            <a class="btn btn-app" href="/aviso_ferias">
+                <i class="fa fa-umbrella-beach"></i> Aviso de Férias
             </a>
             <a class="btn btn-app">
                 <i class="fas fa-pause"></i> Pause
